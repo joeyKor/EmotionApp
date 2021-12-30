@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="2dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:padding="2dp"
+            android:id="@+id/imageView"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기쁨"
+            android:textSize="20dp"
+            android:fontFamily="@font/tmon"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/imageView"
+            />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="0dp"
+            android:gravity="end"
+            android:layout_toEndOf="@id/textView"
+            android:text="21/04/03 23:01"
+            android:background="@color/white"
+            android:textColor="@color/dark_gray"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:fontFamily="@font/bs_bold"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/imageView"
+            android:background="@color/white"
+            android:textColor="@color/dark_gray"
+            android:text="Line2"
+            android:textSize="17dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:paddingEnd="10dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

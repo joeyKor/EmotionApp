@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">나의 감정 일기</string>
+    <string name="school">여수충무고등학교</string>
+
+    <string-array name="emotion_list">
+        <item> 공허한 </item>
+        <item> 만족스러운 </item>
+        <item> 실망스러운 </item>
+        <item> 괴로운 </item>
+        <item> 미안한 </item>
+        <item> 서운한 </item>
+        <item> 후회스러운 </item>
+        <item> 두려운 </item>
+        <item> 재미있는 </item>
+        <item> 지루한 </item>
+        <item> 열정적인 </item>
+        <item> 관심있는 </item>
+        <item> 놀라운 </item>
+        <item> 부러운 </item>
+        <item> 피곤한 </item>
+        <item> 안타까운 </item>
+        <item> 억울한 </item>
+        <item> 간절한 </item>
+        <item> 사랑스러운 </item>
+        <item> 신나는 </item>
+        <item> 홀가분한 </item>
+        <item> 설레는 </item>
+        <item> 화난 </item>
+        <item> 막막한 </item>
+        <item> 외로운 </item>
+        <item> 좌절한 </item>
+        <item> 그리운 </item>
+        <item> 우울한 </item>
+        <item> 행복한 </item>
+        <item> 기대되는 </item>
+        <item> 여유로운 </item>
+        <item> 용기있는 </item>
+        <item> 짜증나는 </item>
+        <item> 미운 </item>
+        <item> 당황한 </item>
+        <item> 불안한 </item>
+        <item> 혼란스러운 </item>
+        <item> 무서운 </item>
+        <item> 자랑스러운 </item>
+        <item> 편안한 </item>
+        <item> 든든한 </item>
+        <item> 귀찮은 </item>
+        <item> 답답한 </item>
+        <item> 슬픈 </item>
+        <item> 기쁜 </item>
+        <item> 자신있는 </item>
+        <item> 감동적인 </item>
+        <item> 부끄러운 </item>
+        <item> 감사한 </item>
+        <item> 뿌듯한 </item>
+        <item> 직접입력 </item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:weightSum="100"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="43">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/ViewPagerslide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_num"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:background="@color/white"
+        android:textColor="@color/dark_gray"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="1/13"
+        android:textAlignment="center"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:fontFamily="@font/tmon"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:text="나의감정"
+            android:textSize="15dp"
+            android:background="@color/white"
+            android:textColor="@color/dark_gray"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="40"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="3dp"
+            android:layout_margin="3dp"
+            >
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/spinner"
+                android:textAlignment="center"
+                android:background="@color/ligth_gray2"
+                android:textColor="@color/dark_gray"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="3dp"
+            android:layout_margin="3dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="40">
+
+            <EditText
+                android:id="@+id/et_emotion"
+                android:paddingLeft="15dp"
+                android:enabled="false"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/dark_gray"
+                android:fontFamily="@font/tmon" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:fontFamily="@font/tmon"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:background="@color/white"
+            android:textColor="@color/dark_gray"
+            android:text="감정일기"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_weight="80"
+            app:cardCornerRadius="3dp"
+            android:layout_margin="3dp"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/et_descrip"
+                android:paddingLeft="13dp"
+                android:background="@color/ligth_gray2"
+                android:textColor="@color/dark_gray"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/tmon"
+                android:singleLine="false" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_select"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/tmon"
+        android:background="@drawable/button_back"
+        android:textColor="@color/dark_gray"
+        android:text="오늘 감정 저장" />
+
+    <Button
+        android:id="@+id/btn_diary"
+        android:layout_width="130dp"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:textSize="17dp"
+        android:fontFamily="@font/tmon"
+        android:layout_gravity="end"
+        android:background="@drawable/button_back2"
+        android:textColor="@color/date_gray"
+        android:text="일기 보기"
+        android:layout_margin="10dp"/>
+
+
+
+</LinearLayout>
